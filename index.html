@@ -113,7 +113,7 @@ var Q=[
 ["grow","Sales double over six months. What happens to your controls?",["They are built to scale; we would add people and review them","Some would need fixing, but the base is solid","They would be stretched, and we would add controls once problems appear","They would break down"],1]
 ];
 // Paste your Google Apps Script web app URL between the quotes. Leave empty to turn sending off.
-var SHEET_URL=https://script.google.com/macros/s/AKfycbwbAUxlHvsoaLH_--3_JZyUdlWkUfP4knd8EvDqdkZzFpZbgRw77rakt3BNFSrSpOkz/exec;
+var SHEET_URL="https://script.google.com/macros/s/AKfycbwbAUxlHvsoaLH_--3_JZyUdlWkUfP4knd8EvDqdkZzFpZbgRw77rakt3BNFSrSpOkz/exec";
 var app=document.getElementById("app"),type=null,list=[],ans=[],idx=0;
 function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
 function fill(t){return t.replace(/\{i\}/g,TYPES[type][1]).replace(/\{s\}/g,TYPES[type][2])}
